@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://astra-doc.github.io/intro/auto/</loc>
+         <loc>https://astra-doc.github.io/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/download/</loc>
+         <loc>https://astra-doc.github.io/auto/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/faq/</loc>
+         <loc>https://astra-doc.github.io/download/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/intro/</loc>
+         <loc>https://astra-doc.github.io/faq/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/prep/</loc>
+         <loc>https://astra-doc.github.io/prep/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/question/</loc>
+         <loc>https://astra-doc.github.io/question/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/requirements/</loc>
+         <loc>https://astra-doc.github.io/requirements/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/sheet/</loc>
+         <loc>https://astra-doc.github.io/sheet/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/tsop/</loc>
+         <loc>https://astra-doc.github.io/tsop/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
     <url>
-         <loc>https://astra-doc.github.io/intro/usage/</loc>
+         <loc>https://astra-doc.github.io/usage/</loc>
          <lastmod>2025-02-19</lastmod>
     </url>
 </urlset>

@@ -1,7 +1,7 @@
 site_name: ASTRA (Auto Stock Trader)
 site_author: 후이넘
 site_description: 미국 주식 자동매매 프로그램인 ASTRA 매뉴얼 페이지입니다. 
-site_url: https://astra-doc.github.io/intro/
+site_url: https://astra-doc.github.io/
 theme:
   name: material
   palette:
@@ -33,7 +33,7 @@ markdown_extensions:
 plugins:
 
 nav:
-  - 👋 소개: intro.md
+  - 👋 소개: index.md
   - 💻 권장사양: requirements.md
   - 🗃️ 준비하기: prep.md
   - ⚒️ 사용방법:
