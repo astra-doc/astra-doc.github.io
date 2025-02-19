@@ -4,6 +4,7 @@ site_description: 미국 주식 자동매매 프로그램인 ASTRA 매뉴얼 페
 site_url: https://astra-doc.github.io/
 theme:
   name: material
+  logo: images/astra.ico
   palette:
   # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
@@ -31,6 +32,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 plugins:
+iextra:
+  analytics:
+    provider: google
+    property: G-FPPQCT0CKL
 
 nav:
   - 👋 소개: index.md
