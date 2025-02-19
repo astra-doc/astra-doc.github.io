@@ -1,0 +1,45 @@
+site_name: ASTRA (Auto Stock Trader)
+site_author: 후이넘
+site_description: 미국 주식 자동매매 프로그램인 ASTRA 매뉴얼 페이지입니다. 
+theme:
+  name: material
+  palette:
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+
+nav:
+  - 👋 소개: intro.md
+  - 💻 권장사양: requirements.md
+  - 🗃️ 준비하기: prep.md
+  - ⚒️ 사용방법:
+    - ⭐ 공통: usage.md
+    - 📈 떨사오팔: tsop.md
+    - 📊 시트매매: sheet.md
+    - ✨ 자동모드: auto.md
+  - ⬇️ 다운로드: download.md
+  - 📌 자주 묻는 질문: faq.md
+  - ❓ 문의하기: question.md
