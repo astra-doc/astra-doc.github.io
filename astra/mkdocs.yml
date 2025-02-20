@@ -32,7 +32,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 plugins:
-iextra:
+extra:
   analytics:
     provider: google
     property: G-FPPQCT0CKL
