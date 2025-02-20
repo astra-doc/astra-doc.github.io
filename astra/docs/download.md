@@ -1,5 +1,11 @@
 # ⬇️ 다운로드
 
+## 0.3.9 (2025-02-20) [⬇️](https://drive.google.com/file/d/19QyzBvxsmZqQqTnJU9MxRZ2eJCs1cgFl/view?usp=sharing)
+- 텔레그램 메시지에 Astra 버전 추가
+- 텔레그램 토큰 처음 등록했을 때 메시지가 안오는 버그 수정
+- "최선집행기준 안내" 창 닫기 (전체 창 닫기 기능으로 안닫아짐)
+- [시트매매] 주문 취소 기능 추가
+
 ## 0.3.8 (2025-02-18) [⬇️](https://drive.google.com/file/d/1iYo4QCgnwbUKUP5ldpF74jWdZOZF2EvU/view?usp=sharing)
 - 다중 공인인증서 지원
 
