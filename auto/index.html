@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
     
     
       
@@ -427,6 +427,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ✨ 자동모드
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -437,6 +449,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      작업 스케줄러
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      작업 스케줄러 세팅
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="작업 스케줄러 세팅">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      일반
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      트리거
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      동작
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -533,6 +615,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      작업 스케줄러
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      작업 스케줄러 세팅
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="작업 스케줄러 세팅">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      일반
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      트리거
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      동작
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -548,10 +689,23 @@
 
 
 <h1 id="_1">✨ 자동 모드</h1>
+<h2 id="_2">작업 스케줄러</h2>
 <p>정해진 시간에 자동으로 주문을 실행하게 하려면 작업 스케줄러를 사용해야 합니다.</p>
-<p>작업스케줄러에서 명령을 아래처럼 입력하면 됩니다. --auto 뒤에는 슬롯 번호를 입력합니다. Astra 프로그램에서 보여지는 슬롯 번호와 동일합니다.</p>
-<div class="highlight"><pre><span></span><code>astra.exe<span class="w"> </span>--auto<span class="w"> </span><span class="m">1</span>
+<p>작업스케줄러에 익숙하지 않으면 아래 블로그를 참고하시기 바랍니다.</p>
+<p><a href="https://blog.naver.com/whitehotdog/223134547879">윈도우 작업 스케줄러 통해 프로그램 자동 실행하기</a></p>
+<h2 id="_3">작업 스케줄러 세팅</h2>
+<h3 id="_4">일반</h3>
+<p>프로그램에서 HTS를 제어하려면 관리자 권한이 필요하므로 <code>가장 높은 수준의 권한으로 실행</code>을 체크해야 합니다.
+<img alt="" src="../images/auto1.png" /></p>
+<h3 id="_5">트리거</h3>
+<p>주식시장이 운영하는 매주 왈화수목금을 선택합니다.
+<img alt="" src="../images/auto2.png" /></p>
+<h3 id="_6">동작</h3>
+<p>프로그램 항목에는 Astra를 설치한 경로를 입력합니다.</p>
+<p>인수 추가 항목에는 다음과 같이 입력합니다. 
+<div class="highlight"><pre><span></span><code>--auto<span class="w"> </span>슬롯번호
 </code></pre></div>
+<img alt="" src="../images/auto3.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>매매가 가능한 시간에 실행을 해야하며, 가급적 빨리 주문하는 게 좋습니다. 사례를 보면 LOC 거래는 선착순이 적용되는 걸로 보입니다.</p>
