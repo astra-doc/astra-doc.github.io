@@ -1,5 +1,14 @@
 # ⬇️ 다운로드
 
+## 0.4.0 (2025-03-05) [⬇️](https://drive.google.com/file/d/11COdmrtKBLdsjgo69wxpsH7IevyLyZPs/view?usp=sharing)
+- 전일종가, 주문가능금액 확인 속도 개선 (파일로 저장해서 읽어오는 방식으로 변경)
+- 설치 파일 용량 감소 (180MB -> 26MB)
+- DB증권 지원 종료 (수요가 없는데 관리할 필요가 없음. 추후에 수요가 생기면 다시 지원 예정)
+- HTS 경로 입력받기 (.env 파일에 MERITZ_HTS_PATH=D:\메리츠증권\iMERITZ XII\Main\imeritz.exe 추가)
+- HTS 종료하지 않도록 설정 (.env 파일에 ASTRA_KEEP_HTS=TRUE 추가)
+- [시트매매] 평균매수가 받아오기
+- [시트매매] VWAP/TWAP/Limit VWAP/Limit TWAP 지원
+
 ## 0.3.9 (2025-02-20) [⬇️](https://drive.google.com/file/d/19QyzBvxsmZqQqTnJU9MxRZ2eJCs1cgFl/view?usp=sharing)
 - 텔레그램 메시지에 Astra 버전 추가
 - 텔레그램 토큰 처음 등록했을 때 메시지가 안오는 버그 수정
