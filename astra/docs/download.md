@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.4.1 (2025-03-06) [⬇️](https://drive.google.com/file/d/19Qi9nhWDoybqfsXIGzLmrel646s8HsXa/view?usp=sharing)
+- CSV 파일 이름 입력할 때 일부 문자가 무시되는 오류 수정
+- HTS 창이 화면 밖으로 나가서 진행이 안될 때 에러 메시지 표시
+
 ## 0.4.0 (2025-03-05) [⬇️](https://drive.google.com/file/d/11COdmrtKBLdsjgo69wxpsH7IevyLyZPs/view?usp=sharing)
 - 전일종가, 주문가능금액 확인 속도 개선 (파일로 저장해서 읽어오는 방식으로 변경)
 - 설치 파일 용량 감소 (180MB -> 26MB)
