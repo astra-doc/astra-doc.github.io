@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://astra-doc.github.io/sitemap.xml
