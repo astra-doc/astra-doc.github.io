@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+#DaumWebMasterTool:83b3c766b468050b94c463d3ffa91b48e8e6ff3f9763d73e54a8aad1b7de60ef:0HtD1+K8fiEWJT2IlgL7bw==
