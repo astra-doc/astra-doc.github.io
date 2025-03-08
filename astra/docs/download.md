@@ -1,6 +1,6 @@
 # ⬇️ 다운로드
 
-## 0.4.2 (2025-03-07) [⬇️](https://drive.google.com/file/d/1l3DcvcIXkdaBwLTiJWj5WngdiEulGx04/view?usp=drive_link]
+## 0.4.2 (2025-03-07) [⬇️](https://drive.google.com/file/d/1l3DcvcIXkdaBwLTiJWj5WngdiEulGx04/view?usp=drive_link)
 - 통합증거금 신청되었을 때 주문가능금액 오류 수정
 - 보유수량 없을 때 평균매수금액 오류 수정
 - 매수/매도 주문확인창 처리 속도 개선
