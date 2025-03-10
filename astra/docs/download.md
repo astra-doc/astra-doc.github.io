@@ -1,5 +1,10 @@
 # ⬇️ 다운로드
 
+## 0.4.4 (2025-03-10) [⬇️](https://drive.google.com/file/d/1R1SxsZTC43q-uC-UyM1MEac2APzrflFZ/view?usp=sharing)
+- 명령줄 옵션에서 멀티 슬롯 지원 (예) `--auto 1,3,4`
+- [시트매매] 지정한 종목 보유수량 없을 때 평균매수금액 오류 수정
+- [시트매매] 문자열 앞뒤로 공백 제거
+
 ## 0.4.2 (2025-03-07) [⬇️](https://drive.google.com/file/d/1l3DcvcIXkdaBwLTiJWj5WngdiEulGx04/view?usp=drive_link)
 - 통합증거금 신청되었을 때 주문가능금액 오류 수정
 - 보유수량 없을 때 평균매수금액 오류 수정
