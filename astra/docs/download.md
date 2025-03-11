@@ -1,5 +1,8 @@
 # ⬇️ 다운로드
 
+## 0.4.5 (2025-03-11) [⬇️](https://drive.google.com/file/d/1gsfnhDW2hClPCUPxuGPOBzhWmIWvRSwu/view?usp=sharing)
+- 멀티 슬롯 옵션 사용할 때, 다음 슬롯의 텔레그램봇에 메시지가 보내지는 오류 수정
+
 ## 0.4.4 (2025-03-10) [⬇️](https://drive.google.com/file/d/1R1SxsZTC43q-uC-UyM1MEac2APzrflFZ/view?usp=sharing)
 - 명령줄 옵션에서 멀티 슬롯 지원 (예) `--auto 1,3,4`
 - 지정한 종목 보유수량 없을 때 평균매수금액 오류 수정
