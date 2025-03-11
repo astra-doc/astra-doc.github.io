@@ -1,5 +1,8 @@
 # ⬇️ 다운로드
 
+## 0.4.6 (2025-03-12) [⬇️](https://drive.google.com/file/d/1B48swTmka60TfZvLzhOTLjsYt3L36PBy/view?usp=sharing)
+- 송송 시트 및 이전 버전 시트 오류 수정
+
 ## 0.4.5 (2025-03-11) [⬇️](https://drive.google.com/file/d/1gsfnhDW2hClPCUPxuGPOBzhWmIWvRSwu/view?usp=sharing)
 - 멀티 슬롯 옵션 사용할 때, 다음 슬롯의 텔레그램봇에 메시지가 보내지는 오류 수정
 
