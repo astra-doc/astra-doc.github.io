@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.4.7 (2025-03-15) [⬇️](https://drive.google.com/file/d/1IfrOLL_Jvfr-q5a9sB3DD3avxi6soZUF/view?usp=sharing)
+- 미체결 주문이 많은 경우 (대략 10개 이상) 주문 취소해도 일부 주문이 남아 있는 오류 수정
+- [시트매매] 주문수량이 없을 때, 커스텀 텔레그램 메시지가 업데이트 이전 내용으로 보내지는 오류 수정
+
 ## 0.4.6 (2025-03-12) [⬇️](https://drive.google.com/file/d/1B48swTmka60TfZvLzhOTLjsYt3L36PBy/view?usp=sharing)
 - 송송 시트 및 이전 버전 시트 오류 수정
 
