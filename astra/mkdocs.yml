@@ -5,6 +5,7 @@ site_url: https://astra-doc.github.io/
 theme:
   name: material
   logo: images/astra.ico
+  custom_dir: overrides
   palette:
   # Palette toggle for automatic mode
   - media: "(prefers-color-scheme)"
