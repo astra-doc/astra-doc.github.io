@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.4.9 (2025-04-02) [⬇️](https://drive.google.com/file/d/1v7Zzj0Gzq_DfOCNo9QvzvL3x-EnMBDEN/view?usp=sharing)
+- 매수/매도 주문 속도 개선
+- 주문취소 속도 개선
+
 ## 0.4.8 (2025-03-29) [⬇️](https://drive.google.com/file/d/1q8ATOXZtmNQbcGHoMiuEQFQCfEU5xCMO/view?usp=sharing)
 - 슬롯 폰트 크기 증가
 - 특정 해상도에서 주문 취소 기능 안되는 오류 수정
