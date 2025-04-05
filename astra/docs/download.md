@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.4.10 (2025-04-05) [⬇️](https://drive.google.com/file/d/1VASy5H0buRczBgjKF_CCMctmuUJV99tW/view?usp=sharing)
+- 멀티 슬롯 사용할 때 오류 발생 시 종료하지 않고 다음 슬롯 진행
+- [떨사오팔] 마지막 티어 주문시 발생하는 오류 수정
+
 ## 0.4.9 (2025-04-02) [⬇️](https://drive.google.com/file/d/1v7Zzj0Gzq_DfOCNo9QvzvL3x-EnMBDEN/view?usp=sharing)
 - 매수/매도 주문 속도 개선
 - 주문취소 속도 개선
