@@ -1,5 +1,8 @@
 # ⬇️ 다운로드
 
+## 0.4.12 (2025-04-08) [⬇️](https://drive.google.com/file/d/1eqEYqpHab2rjrckBvRYIZc3rYKnkG0Lc/view?usp=sharing)
+- 시트 아이디에 URL 지원
+
 ## 0.4.11 (2025-04-07) [⬇️](https://drive.google.com/file/d/1lju0xchi2X_LZyMfMcV6901IGiFRglIQ/view?usp=sharing)
 - 멀티 슬롯 사용 중에 오류 발생시 다음 슬롯의 텔레그램 봇으로 메시지가 보내지는 오류 수정
 
