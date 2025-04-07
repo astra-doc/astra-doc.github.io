@@ -1,5 +1,8 @@
 # ⬇️ 다운로드
 
+## 0.4.11 (2025-04-07) [⬇️](https://drive.google.com/file/d/1lju0xchi2X_LZyMfMcV6901IGiFRglIQ/view?usp=sharing)
+- 멀티 슬롯 사용 중에 오류 발생시 다음 슬롯의 텔레그램 봇으로 메시지가 보내지는 오류 수정
+
 ## 0.4.10 (2025-04-05) [⬇️](https://drive.google.com/file/d/1VASy5H0buRczBgjKF_CCMctmuUJV99tW/view?usp=sharing)
 - 멀티 슬롯 사용할 때 오류 발생 시 종료하지 않고 다음 슬롯 진행
 - [떨사오팔] 마지막 티어 주문시 발생하는 오류 수정
