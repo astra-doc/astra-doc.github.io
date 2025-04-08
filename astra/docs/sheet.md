@@ -11,9 +11,9 @@ Astra 에서는 시트 포맷만 제공하고 실제 매매법을 담은 시트�
 ![sheet2](images/sheet2.png)
 
 ## 2. 시트 아이디 복사
-새로 생성된 시트에서 아래 그림처럼 시트 아이디를 복사한 후 Astra 프로그램의 구글시트 항목에 입력합니다.
+새로 생성된 시트에서 아래 그림처럼 시트 URL을 복사한 후 Astra 프로그램의 구글시트 항목에 입력합니다.
 
-![sheet3](images/sheet3.avif)
+![sheet3](images/sheet3.png)
 
 ## 3. 편집 권한 부여
 구글 시트에서 오른쪽 상단의 Share 버튼을 클릭한 후, Astra 계정에 편집 권한을 부여합니다. Astra 계정은 astra-sheet@astra-sheet.iam.gserviceaccount.com 입니다. 진행하면서 시트 제목이 없다고 경고가 뜰 수도 있는데, 무시해도 되고 이름을 입력해도 됩니다.
