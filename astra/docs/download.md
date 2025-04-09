@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.5.0 (2025-04-10) [⬇️](https://drive.google.com/file/d/1xYo_VxGqGV3_iVn0CyQ4MZR0LhgWXJcI/view?usp=sharing)
+- [시트매매] 실시간 감시 기능 추가
+- 종가, 주문가능금액, 평균매수금 처리 속도 개선 (파일 이름 입력 부분)
+
 ## 0.4.12 (2025-04-08) [⬇️](https://drive.google.com/file/d/1eqEYqpHab2rjrckBvRYIZc3rYKnkG0Lc/view?usp=sharing)
 - 시트 아이디에 URL 지원
 
