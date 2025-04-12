@@ -1,5 +1,10 @@
 # ⬇️ 다운로드
 
+## 0.5.1 (2025-04-12) [⬇️](https://drive.google.com/file/d/1A6xmFRvo4MJCkANz1w8q6KRWH1h5xGCP/view?usp=sharing)
+- 애프터장에서 현재가를 주문창이 아니라 실시간 체결추이 창에서 받아오도록 수정
+- 텔레그램 메시지 전송 실패하면 슬롯이 종료안되는 오류 수정
+- 텔레그램 토큰을 다른 사용자용으로 교체하면 반영이 안되는 오류 수정
+
 ## 0.5.0 (2025-04-10) [⬇️](https://drive.google.com/file/d/1xYo_VxGqGV3_iVn0CyQ4MZR0LhgWXJcI/view?usp=sharing)
 - [시트매매] 실시간 감시 기능 추가
 - 종가, 주문가능금액, 평균매수금 처리 속도 개선 (파일 이름 입력 부분)
