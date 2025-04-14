@@ -1,5 +1,9 @@
 # ⬇️ 다운로드
 
+## 0.5.3 (2025-04-14) [⬇️](https://drive.google.com/file/d/1_2mbxg3Uoxw5RP8mh2RxoSiGt1ThJX1j/view?usp=sharing)
+- 실시간 감시에서 가격입력창을 못찾는 오류 수정
+- 실시간 감시에서 파일 저장 실패하는 경우에도 계속 진행할 수 있도록 처리
+
 ## 0.5.1 (2025-04-12) [⬇️](https://drive.google.com/file/d/1A6xmFRvo4MJCkANz1w8q6KRWH1h5xGCP/view?usp=sharing)
 - 애프터장에서 현재가를 주문창이 아니라 실시간 체결추이 창에서 받아오도록 수정
 - 텔레그램 메시지 전송 실패하면 슬롯이 종료안되는 오류 수정
