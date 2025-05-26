@@ -1,37 +1,45 @@
 # ⬇️ 다운로드
 
-## 0.5.4 (2025-04-15) [⬇️](https://drive.google.com/file/d/1hBoBrifr6neVJzAn47R8OWPTEjqwyQ69/view?usp=sharing)
+## 0.6.0 (2025-05-30) [⬇️](https://drive.google.com/file/d/1NH4Ixqv9thM0xLq9rGWYh1bak_fjRHLQ/view?usp=sharing)
+- 면책조항 추가 (동의하지 않으면 사용 불가)
+- 동적 그리드 기능 추가 [설명](dynamic_grid.md)
+
+## 0.5.4 (2025-04-15) 
 - HTS 실행 및 종료할 때 "파일 저장 창" 이 떠있는 경우에 창 닫기
 - [시트매매] 시가, 고가, 저가를 시트에 저장
 
-## 0.5.3 (2025-04-14) [⬇️](https://drive.google.com/file/d/1_2mbxg3Uoxw5RP8mh2RxoSiGt1ThJX1j/view?usp=sharing)
+## 0.5.4 (2025-04-15)
+️- HTS 실행 및 종료할 때 "파일 저장 창" 이 떠있는 경우에 창 닫기
+- [시트매매] 시가, 고가, 저가를 시트에 저장
+
+## 0.5.3 (2025-04-14) 
 - [시트매매] 실시간 감시에서 가격입력창을 못찾는 오류 수정
 - [시트매매] 실시간 감시에서 파일 저장 실패하는 경우에도 계속 진행할 수 있도록 처리
 
-## 0.5.1 (2025-04-12) [⬇️](https://drive.google.com/file/d/1A6xmFRvo4MJCkANz1w8q6KRWH1h5xGCP/view?usp=sharing)
+## 0.5.1 (2025-04-12) 
 - 애프터장에서 현재가를 주문창이 아니라 실시간 체결추이 창에서 받아오도록 수정
 - 텔레그램 메시지 전송 실패하면 슬롯이 종료안되는 오류 수정
 - 텔레그램 토큰을 다른 사용자용으로 교체하면 반영이 안되는 오류 수정
 
-## 0.5.0 (2025-04-10) [⬇️](https://drive.google.com/file/d/1xYo_VxGqGV3_iVn0CyQ4MZR0LhgWXJcI/view?usp=sharing)
+## 0.5.0 (2025-04-10) 
 - [시트매매] 실시간 감시 기능 추가
 - 종가, 주문가능금액, 평균매수금 처리 속도 개선 (파일 이름 입력 부분)
 
-## 0.4.12 (2025-04-08) [⬇️](https://drive.google.com/file/d/1eqEYqpHab2rjrckBvRYIZc3rYKnkG0Lc/view?usp=sharing)
-- 시트 아이디에 URL 지원
-
-## 0.4.11 (2025-04-07) [⬇️](https://drive.google.com/file/d/1lju0xchi2X_LZyMfMcV6901IGiFRglIQ/view?usp=sharing)
+## 0.4.12 (2025-04-08) 
+- jjjuu시트 아이디에 URL 지원
+u:
+## 0.4.11 (2025-04-07) 
 - 멀티 슬롯 사용 중에 오류 발생시 다음 슬롯의 텔레그램 봇으로 메시지가 보내지는 오류 수정
 
-## 0.4.10 (2025-04-05) [⬇️](https://drive.google.com/file/d/1VASy5H0buRczBgjKF_CCMctmuUJV99tW/view?usp=sharing)
+## 0.4.10 (2025-04-05) 
 - 멀티 슬롯 사용할 때 오류 발생 시 종료하지 않고 다음 슬롯 진행
 - [떨사오팔] 마지막 티어 주문시 발생하는 오류 수정
 
-## 0.4.9 (2025-04-02) [⬇️](https://drive.google.com/file/d/1v7Zzj0Gzq_DfOCNo9QvzvL3x-EnMBDEN/view?usp=sharing)
+## 0.4.9 (2025-04-02) 
 - 매수/매도 주문 속도 개선
 - 주문취소 속도 개선
 
-## 0.4.8 (2025-03-29) [⬇️](https://drive.google.com/file/d/1q8ATOXZtmNQbcGHoMiuEQFQCfEU5xCMO/view?usp=sharing)
+## 0.4.8 (2025-03-29) 
 - 슬롯 폰트 크기 증가
 - 특정 해상도에서 주문 취소 기능 안되는 오류 수정
 - 오류 발생했을 때 텔레그램 메시지가 두 번 보내지는 오류 수정
@@ -39,31 +47,31 @@
 - [떨사오팔] 마지막 티어는 정액매수 하지 않도록 수정
 - [떨사오팔] 정액매수 주문마다 수량이 동일하게 수정
 
-## 0.4.7 (2025-03-15) [⬇️](https://drive.google.com/file/d/1IfrOLL_Jvfr-q5a9sB3DD3avxi6soZUF/view?usp=sharing)
+## 0.4.7 (2025-03-15) 
 - 미체결 주문이 많은 경우 (대략 10개 이상) 주문 취소해도 일부 주문이 남아 있는 오류 수정
 - [시트매매] 주문수량이 없을 때, 커스텀 텔레그램 메시지가 업데이트 이전 내용으로 보내지는 오류 수정
 
-## 0.4.6 (2025-03-12) [⬇️](https://drive.google.com/file/d/1B48swTmka60TfZvLzhOTLjsYt3L36PBy/view?usp=sharing)
+## 0.4.6 (2025-03-12) 
 - 송송 시트 및 이전 버전 시트 오류 수정
 
-## 0.4.5 (2025-03-11) [⬇️](https://drive.google.com/file/d/1gsfnhDW2hClPCUPxuGPOBzhWmIWvRSwu/view?usp=sharing)
+## 0.4.5 (2025-03-11) 
 - 멀티 슬롯 옵션 사용할 때, 다음 슬롯의 텔레그램봇에 메시지가 보내지는 오류 수정
 
-## 0.4.4 (2025-03-10) [⬇️](https://drive.google.com/file/d/1R1SxsZTC43q-uC-UyM1MEac2APzrflFZ/view?usp=sharing)
+## 0.4.4 (2025-03-10) 
 - 명령줄 옵션에서 멀티 슬롯 지원 (예) `--auto 1,3,4`
 - 지정한 종목 보유수량 없을 때 평균매수금액 오류 수정
 - [시트매매] 문자열 앞뒤로 공백 제거
 
-## 0.4.2 (2025-03-07) [⬇️](https://drive.google.com/file/d/1l3DcvcIXkdaBwLTiJWj5WngdiEulGx04/view?usp=drive_link)
+## 0.4.2 (2025-03-07) 
 - 통합증거금 신청되었을 때 주문가능금액 오류 수정
 - 보유수량 없을 때 평균매수금액 오류 수정
 - 매수/매도 주문확인창 처리 속도 개선
 
-## 0.4.1 (2025-03-06) [⬇️](https://drive.google.com/file/d/19Qi9nhWDoybqfsXIGzLmrel646s8HsXa/view?usp=sharing)
+## 0.4.1 (2025-03-06) 
 - CSV 파일 이름 입력할 때 일부 문자가 무시되는 오류 수정
 - HTS 창이 화면 밖으로 나가서 진행이 안될 때 에러 메시지 표시
 
-## 0.4.0 (2025-03-05) [⬇️](https://drive.google.com/file/d/11COdmrtKBLdsjgo69wxpsH7IevyLyZPs/view?usp=sharing)
+## 0.4.0 (2025-03-05) 
 - 전일종가, 주문가능금액 확인 속도 개선 (파일로 저장해서 읽어오는 방식으로 변경)
 - 설치 파일 용량 감소 (180MB -> 26MB)
 - DB증권 지원 종료 (수요가 없는데 관리할 필요가 없음. 추후에 수요가 생기면 다시 지원 예정)
@@ -72,17 +80,17 @@
 - [시트매매] 평균매수가 받아오기
 - [시트매매] VWAP/TWAP/Limit VWAP/Limit TWAP 지원
 
-## 0.3.9 (2025-02-20) [⬇️](https://drive.google.com/file/d/19QyzBvxsmZqQqTnJU9MxRZ2eJCs1cgFl/view?usp=sharing)
+## 0.3.9 (2025-02-20) 
 - 텔레그램 메시지에 Astra 버전 추가
 - 텔레그램 토큰 처음 등록했을 때 메시지가 안오는 버그 수정
 - "최선집행기준 안내" 창 닫기 (전체 창 닫기 기능으로 안닫아짐)
 - [시트매매] 주문 취소 기능 추가
 
-## 0.3.8 (2025-02-18) [⬇️](https://drive.google.com/file/d/1iYo4QCgnwbUKUP5ldpF74jWdZOZF2EvU/view?usp=sharing)
+## 0.3.8 (2025-02-18) 
 - 다중 공인인증서 지원
 
 
-## 0.3.6 (2025-02-17) [⬇️](https://drive.google.com/file/d/1g1sT5wHA4LA9Owf-UFylVFVXOsuutATD/view?usp=sharing)
+## 0.3.6 (2025-02-17) 
 - 전일 종가를 읽어 올 때 간헐적으로 소수점(.)을  콤마(,)로 인식하는 문제 수정
 
 
@@ -142,7 +150,7 @@
 - [시트매매] 상태확인 체크박스 추가 (시간이 오래걸리므로 필요없는 경우 스킵함)
 
 
-## 0.2.18 (2025-02-06) [⬇️](https://drive.google.com/file/d/1XtLE9-N6QWzH7iHfuxZcrqGzZn-wvprc/view?usp=sharing)
+## 0.2.18 (2025-02-06) 
 - 주문입력확인창 옵션이 꺼있을 때 정상 동작하도록 처리
 
 
