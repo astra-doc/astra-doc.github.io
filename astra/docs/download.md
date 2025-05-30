@@ -16,6 +16,7 @@
 ## 0.6.0 (2025-04-29) [⬇️](https://drive.google.com/file/d/1NH4Ixqv9thM0xLq9rGWYh1bak_fjRHLQ/view?usp=sharing)
 - 처음 실행할 때 면책조항 팝업이 뜨도록 함 (동의하지 않으면 사용 불가)
 - Python 소수점 계산 오류 수정
+- 상태 창에 스크롤을 추가해서 내용이 많을 때 창이 커지는 현상 방지
 - 동적 그리드 매매법 추가 ([설명 및 사용 방법](dynamic_grid.md))
 
 ## 0.5.5 (2025-04-15)
