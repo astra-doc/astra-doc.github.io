@@ -557,6 +557,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 실시간 감시 기능
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -602,6 +611,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ⬇️ 다운로드
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../faq/" class="md-nav__link">
         
   
@@ -628,6 +658,27 @@
   
   <span class="md-ellipsis">
     💬 문의하기
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    💸 후원하기
     
   </span>
   
@@ -708,6 +759,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 실시간 감시 기능
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -739,17 +799,48 @@ Astra 에서는 시트 포맷만 제공하고 실제 매매법을 담은 시트�
 <p>구글 시트에서 오른쪽 상단의 Share 버튼을 클릭한 후, Astra 계정에 편집 권한을 부여합니다. Astra 계정은 astra-sheet@astra-sheet.iam.gserviceaccount.com 입니다. 진행하면서 시트 제목이 없다고 경고가 뜰 수도 있는데, 무시해도 되고 이름을 입력해도 됩니다.</p>
 <p><img alt="sheet4" src="../images/sheet4.png" /></p>
 <h2 id="4">4. 시트 생성</h2>
-<p>Astra 프로그램 설정 영역에 시트이름과 종목을 설정한 후 설정 저장 버튼을 클릭합니다. 잠시 기다리면 아래처럼 항목이 추가가 됩니다. 하늘색 셀을 수정해서 원하는 주문을 입력합니다.</p>
-<p><img alt="sheet5" src="../images/sheet5.avif" /></p>
+<p>Astra 프로그램 설정 영역에 시트이름과 종목을 설정한 후 설정 저장 버튼을 클릭합니다. 잠시 기다리면 아래처럼 항목이 추가가 됩니다. 옅은 회색 셀은 프로그램에서 업데이트하는 셀이며, 하늘색 셀은 사용자가 수정 가능한 설정 및 주문표입니다.</p>
+<p><img alt="sheet5" src="../images/sheet_new.png" /></p>
 <h2 id="5">5. 주문 시작</h2>
 <p>주문 시작 버튼을 누르면 주문이 시작됩니다.</p>
 <p>다음과 같은 순서로 진행이 됩니다.</p>
 <ol>
 <li>HTS 실행</li>
-<li>전일 종가, 현재가, 보유수량, 주문가능금액 확인</li>
-<li>주문 넣기 </li>
+<li>(상태확인 체크된 경우) 전일 종가, 현재가, 보유수량, 주문가능금액, 평균매수가 확인해서 해당 셀에 업데이트</li>
+<li>(기존주문츼소 체크된 경우) 기존 주문 취소</li>
+<li>(대기시간이 0보다 큰 경우) 해당 시간(초)만큼 대기</li>
+<li>주문표를 읽어서 주문 넣기 </li>
 <li>주문 내역 텔레그램 메시지 전송</li>
 </ol>
+<h2 id="6">6. 실시간 감시 기능</h2>
+<p>0.5.0 버전부터 시트에서 실시간 감시 기능이 추가 되었습니다.</p>
+<p>주기적으로 주문표를 읽어서 주문을 넣을 수 있으며, 장중 가격을 감시해서 조건을 만족하는 경우 주문을 넣고 싶을 때 유용합니다.</p>
+<table>
+<thead>
+<tr>
+<th>설정</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>실시간 감시</td>
+<td>체크하면 실시간 감시가 동작합니다.</td>
+</tr>
+<tr>
+<td>시작시간</td>
+<td>실시간 감시를 시작할 시간입니다. <code>HH:MM</code> 형식으로 입력합니다. 시작 시간 전이라면 시작 시간까지 대기합니다.</td>
+</tr>
+<tr>
+<td>종료시간</td>
+<td>실시간 감시를 종료할 시간입니다. <code>HH:MM</code> 형식으로 입력합니다.</td>
+</tr>
+<tr>
+<td>감시간격</td>
+<td>감시를 수행할 시간 간격입니다. 감시 후 해당 시간 만큼 대기후 다음 감시를 시작합니다. 분 단위로 입력을 해야하며, 0을 입력하면 감시 간에 대기없어 계속 감시를 수행합니다.</td>
+</tr>
+</tbody>
+</table>
 
 
 
