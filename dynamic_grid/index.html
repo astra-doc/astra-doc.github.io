@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://astra-doc.github.io/dynamic_grid/">
       
       
+        <link rel="prev" href="../sheet/">
+      
+      
+        <link rel="next" href="../auto/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -376,17 +380,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -401,7 +407,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             📄 사용방법
@@ -469,6 +475,153 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    📈 동적그리드
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    📈 동적그리드
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      매매법 설명
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="매매법 설명">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      개요
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      동적 그리드 특징
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      동적 그리드 효과
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      사용 방법
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="사용 방법">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 설정
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 주문하기
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. (필요한 경우) 현재 상태 수정
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -753,7 +906,7 @@
 </figcaption>
 </figure>
 <p>V자 반등이 일어나는 경우에는 기존 그리드가 더 유리할 수 있지만 (많은 티어를 매수 후 바로 매도가 일어나게 되므로) 동적그리드는 하방 커버가 더 넒으므로 하락장 대처에 유리합니다. </p>
-<p>그리고 손절 규칙이 있기 때문에 냉동 상태를 방지할 수 있고 기존 그리드 방법보다 더 적은 티어로 운용이 가능합니다.</p>
+<p>그리고 손절 규칙이 있기 때문에 냉동 상태를 방지할 수 있습니다.</p>
 <h2 id="_6">사용 방법</h2>
 <h3 id="1">1. 설정</h3>
 <p><img alt="" src="../images/dynamic_grid.png" style="width:600px; display:block; margin:0 auto" /></p>
@@ -833,7 +986,7 @@
 <p>동적 그리드는 끝나지 않고 계속 실행이 되기 때문에, 작업 스케줄러를 통해서 멀티 슬롯을 사용할 때는 가장 마지막 순서에 넣어야 합니다.</p>
 </div>
 <h3 id="3">3. (필요한 경우) 현재 상태 수정</h3>
-<p>현재 상태가 <code>%USERPROFILE%\\.astra\dynamic_grid_{슬롯번호}.csv</code> 파일에 저장이 됩니다. 엑셀을 사용해서 확인 및 편집이 가능하고, 엑셀이 설치되어 있지 않더라도 메모장에서 열어서 확인이 가능합니다. </p>
+<p>현재 상태가 <code>%USERPROFILE%\.astra\dynamic_grid_{슬롯번호}.csv</code> 파일에 저장이 됩니다. 엑셀을 사용해서 확인 및 편집이 가능하고, 엑셀이 설치되어 있지 않더라도 메모장에서 열어서 확인이 가능합니다. </p>
 
 
 
@@ -860,6 +1013,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../sheet/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 📊 시트매매">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                📊 시트매매
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../auto/" class="md-footer__link md-footer__link--next" aria-label="Next: ✨ 자동모드">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                ✨ 자동모드
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
