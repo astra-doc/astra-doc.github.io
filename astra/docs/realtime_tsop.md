@@ -23,7 +23,7 @@
 
 ## 사용 방법
 ### 1. 설정
-![](images/dynamic_grid.png){: style="width:600px; display:block; margin:0 auto"}
+![](images/realtime_tsop.png){: style="width:600px; display:block; margin:0 auto"}
 
 |설정|설명|
 |---|---|
