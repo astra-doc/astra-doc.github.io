@@ -21,7 +21,7 @@
 ## 0.6.0 (2025-06-04) [⬇️](https://drive.google.com/file/d/11BV8DyOUEgePN86YjA1MlrsT75T_u1Qs/view?usp=drive_link)
 - 상태 창에 스크롤을 추가해서 내용이 많을 때 창이 커지는 현상 방지
 - 바로가기 버튼 추가 (작업스케줄러, 로그보기, 문서보기)
-- 동적그리드 매매법 추가 ([설명 및 사용 방법](realtime_grid.md))
+- 동적그리드 매매법 추가 ([설명 및 사용 방법](realtime_tsop.md))
 
 ## 0.5.6 (2025-04-30) [⬇️](https://drive.google.com/file/d/1PCJWjg0nsQedfjUwMeqs922Eenz_MyPe/view?usp=drive_link)
 - 처음 실행할 때 면책조항 팝업이 뜨도록 함 (동의하지 않으면 사용 불가)
