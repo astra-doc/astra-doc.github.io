@@ -13,9 +13,10 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
-## 0.6.2 (2025-06-14) [⬇️](https://drive.google.com/file/d/16aCDwFdYlT0YxSO-bgOjgDBC4swi7cNa/view?usp=sharing)
+## 0.6.2 (2025-06-14) [⬇️]( https://drive.google.com/file/d/11VGb2ZulJI67TgWKTQW4Eg6_ROvca49G/view?usp=sharing)
 - 동적그리드 -> 실시간떨사오팔로 이름 변경 (그리드라는 이름이 오해의 소지가 있음)
 - 시트 접근 오류 발생할 때 에러메시지를 상세하게 남기도록 함
+- HTS 로그인 창 찾을 때 대기 시간을 늘림
 
 ## 0.6.0 (2025-06-04) [⬇️](https://drive.google.com/file/d/11BV8DyOUEgePN86YjA1MlrsT75T_u1Qs/view?usp=drive_link)
 - 상태 창에 스크롤을 추가해서 내용이 많을 때 창이 커지는 현상 방지
