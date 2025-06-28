@@ -7,9 +7,9 @@
 ## 2. HTS 설치하기
 사용할 증권사의 프로그램을 설치합니다.
 
-### 2.1 DB증권 happy+ 설치하기
-[HTS 다운로드 및 안내 - DB금융투자](https://www.db-fi.com/custcenter/trading/cu_HtsInfo_idx.do)
-### 2.2 메리츠증권 iMeritz 설치하기
+<!--### 2.1 DB증권 happy+ 설치하기
+[HTS 다운로드 및 안내 - DB금융투자](https://www.db-fi.com/custcenter/trading/cu_HtsInfo_idx.do)-->
+### 2.1 메리츠증권 iMeritz 설치하기
 [iMERITZ - 메리츠증권](https://home.imeritz.com/odermdia/OderMdiaDnldHts.do)
 
 !!! warning "주의"

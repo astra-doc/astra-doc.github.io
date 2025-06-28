@@ -7,6 +7,7 @@
         ```bash
         %userprofile%\.astra
         ```
+        ![](images/file_explorer.png)
     2. .env 파일을 메모장에서 열기
     3. 다음을 추가하고 저장 (숫자는 원하는 개수로 설정)
         ```bash
