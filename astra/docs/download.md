@@ -15,6 +15,7 @@
 
 ## 0.6.3 (2025-06-28) [⬇️](https://drive.google.com/file/d/1iXJLIlVlQlitGZmPdJe6_OmuQ_fa4h1j/view?usp=sharing)
 - 여러 슬롯에서 실시간 매매 지원 (시트 실시간 감시, 실시간 떨사오팔)
+- [실시간떨사오팔] 주문 가격을 0.01 단위로 맞춤
 
 ## 0.6.2 (2025-06-14) [⬇️](https://drive.google.com/file/d/11VGb2ZulJI67TgWKTQW4Eg6_ROvca49G/view?usp=sharing)
 - 동적그리드 -> 실시간떨사오팔로 이름 변경 (그리드라는 이름이 오해의 소지가 있음)
