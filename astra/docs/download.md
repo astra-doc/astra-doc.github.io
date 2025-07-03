@@ -13,6 +13,10 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.6.4 (2025-07-03) [⬇️](https://drive.google.com/file/d/1oJcNMYrIPXsOn3dP2FIPFPWAKAuTpMqu/view?usp=sharing)
+- 실시간 매매에서 오류가 발생해도 다음 번 감시가 동작하도록 수정
+- `Permission denied: 'C:\\Users\\user\\.astra\temp.csv'` 오류 수정
+
 ## 0.6.3 (2025-06-28) [⬇️](https://drive.google.com/file/d/1iXJLIlVlQlitGZmPdJe6_OmuQ_fa4h1j/view?usp=sharing)
 - 여러 슬롯에서 실시간 매매 지원 (시트 실시간 감시, 실시간 떨사오팔)
 - [실시간떨사오팔] 주문 가격을 0.01 단위로 맞춤
