@@ -522,6 +522,28 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ⚙️ 설정
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -659,52 +681,8 @@
 
 <h1 id="_1">📌 자주 묻는 질문</h1>
 <details class="note">
-<summary>슬롯 개수를 늘릴 수 있을까요?</summary>
-<p>아직 공식 기능은 아니지만 아래와 같이 따라하면 슬롯을 늘릴 수 있습니다.</p>
-<ol>
-<li>파일 탐색기 주소에 다음을 입력
-    <div class="highlight"><pre><span></span><code>%userprofile%<span class="se">\.</span>astra
-</code></pre></div>
-    <img alt="" src="../images/file_explorer.png" /></li>
-<li>.env 파일을 메모장에서 열기</li>
-<li>다음을 추가하고 저장 (숫자는 원하는 개수로 설정)
-    <div class="highlight"><pre><span></span><code><span class="nv">ASTRA_SLOT_COUNT</span><span class="o">=</span><span class="m">10</span>
-</code></pre></div></li>
-<li>Astra 재실행</li>
-</ol>
-</details>
-<details class="note">
 <summary>새 버전을 설치하면 설정을 다시 해야할까요?</summary>
-<p>설정은 사용자 계정 경로(%userprofile%\.astra)에 저장하고 있으므로, 설정을 다시할 필요는 없습니다.
-하지만 버전 업데이트가 되면서 새로운 설정이 추가된 경우에는 저장이 필요합니다.</p>
-</details>
-<details class="note">
-<summary>메리츠 HTS를 D 드라이브에 설치한 경우 실행이 안됩니다</summary>
-<p>아래와 같이 따라하면 HTS 경로를 수정할 수 있습니다.</p>
-<ol>
-<li>파일 탐색기 주소에 다음을 입력
-    <div class="highlight"><pre><span></span><code>%userprofile%<span class="se">\.</span>astra
-</code></pre></div></li>
-<li>.env 파일을 메모장에서 열기</li>
-<li>아래처럼 HTS 경로를 입력
-    <div class="highlight"><pre><span></span><code><span class="nv">MERITZ_HTS_PATH</span><span class="o">=</span>D:<span class="se">\메</span>리츠증권<span class="se">\i</span>MERITZ<span class="w"> </span>XII<span class="se">\M</span>ain<span class="se">\i</span>meritz.exe
-</code></pre></div></li>
-<li>Astra 재실행</li>
-</ol>
-</details>
-<details class="note">
-<summary>자동 스케줄러로 실행할 때 주문 완료 후에 HTS 창을 남겨 두고 싶어요</summary>
-<p>아래와 같이 따라하면 HTS 경로를 수정할 수 있습니다.</p>
-<ol>
-<li>파일 탐색기 주소에 다음을 입력
-    <div class="highlight"><pre><span></span><code>%userprofile%<span class="se">\.</span>astra
-</code></pre></div></li>
-<li>.env 파일을 메모장에서 열기</li>
-<li>다음을 추가하고 저장
-    <div class="highlight"><pre><span></span><code><span class="nv">ASTRA_KEEP_HTS</span><span class="o">=</span>TRUE
-</code></pre></div></li>
-<li>Astra 재실행</li>
-</ol>
+<p>설정은 사용자 계정 경로(%userprofile%\.astra)에 저장하고 있으므로, 설정을 다시할 필요는 없습니다.</p>
 </details>
 <details class="note">
 <summary>'텔레그램 봇과 통신을 실패했습니다. 봇에 메시지를 보낸 후 다시 설정 저장 버튼을 눌러주세요' 에러가 발생합니다.</summary>
@@ -713,17 +691,6 @@
 <li>텔레그램 봇 채팅 화면을 열어서 메시지를 보냅니다. (어떤 메시지든 상관없습니다.)</li>
 <li>Astra 에서 다시 "설정 저장" 버튼을 누릅니다.</li>
 <li>정상적으로 인식이 되면, 텔레그램 봇에 "텔레그램 동작확인" 메시지가 보내집니다.</li>
-</ol>
-</details>
-<details class="note">
-<summary>설정을 초기화 하고 싶어요</summary>
-<p>Astra 를 새로운 버전으로 설치하더라도 설정이 남아있게 되는데, 설정들을 모두 초기화하려면 다음과 같이 진행합니다.</p>
-<ol>
-<li>파일 탐색기 주소에 다음을 입력
-    <div class="highlight"><pre><span></span><code>%userprofile%<span class="se">\.</span>astra
-</code></pre></div></li>
-<li>.env 파일을 삭제</li>
-<li>Astra 재실행</li>
 </ol>
 </details>
 <details class="note">
