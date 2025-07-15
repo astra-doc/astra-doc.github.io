@@ -13,6 +13,10 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.6.5 (2025-07-15) [⬇️](https://drive.google.com/file/d/1ifSQ9a0oUbf0FZIYhO-iUP-QxfhgpdWP/view?usp=sharing)
+- 슬롯 개수, HTS 경로 등을 설정할 수 기능 추가
+- 인증서 변경될 때 HTS 종료 후 재실행 대기 시간 추가 
+
 ## 0.6.4 (2025-07-03) [⬇️](https://drive.google.com/file/d/1oJcNMYrIPXsOn3dP2FIPFPWAKAuTpMqu/view?usp=sharing)
 - 실시간 매매에서 오류가 발생해도 다음 번 감시가 동작하도록 수정
 - `Permission denied: 'C:\\Users\\user\\.astra\temp.csv'` 오류 수정
