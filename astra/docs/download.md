@@ -13,6 +13,9 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.6.6 (2025-07-16) [⬇️](https://drive.google.com/file/d/1G8bgVLVV_OCaYsnyVGUihJ4_p_L4dQR4/view?usp=sharing)
+- 자동모드에서 슬롯 번호가 오름차순으로 실행되는 오류 수정
+
 ## 0.6.5 (2025-07-15) [⬇️](https://drive.google.com/file/d/1ifSQ9a0oUbf0FZIYhO-iUP-QxfhgpdWP/view?usp=sharing)
 - 슬롯 개수, HTS 경로 등을 설정할 수 기능 추가
 - 인증서 변경될 때 HTS 종료 후 재실행 대기 시간 추가 
