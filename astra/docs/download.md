@@ -13,6 +13,12 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.7.0 (2025-07-24) [⬇️](https://drive.google.com/file/d/12Xeo3n4vLeMm-jzXtZnCJE8WIsRoG3df/view?usp=sharing)
+- [시트매매] HTS에서 일별 종가 받아오는 기능 추가
+- [시트매매] 주문표에 유효하지 않은 글자가 포함되어 있는 경우 직관적인 에러 메시지 표시
+- 폰트 사이즈 변경 옵션 추가 (ASTRA 프로그램 창 크기도 변경됨)
+- 애프터장에서 HTS 종료 실패하는 오류 수정
+
 ## 0.6.6 (2025-07-16) [⬇️](https://drive.google.com/file/d/1G8bgVLVV_OCaYsnyVGUihJ4_p_L4dQR4/view?usp=sharing)
 - 자동모드에서 슬롯 번호가 오름차순으로 실행되는 오류 수정
 
