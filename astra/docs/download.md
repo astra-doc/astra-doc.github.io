@@ -13,7 +13,7 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
-## 0.7.1 (2025-08-04) [⬇️](https://drive.google.com/file/d/1d3b1zPlCIyFdp7nnTZIw7WopRNNVk69m/view?usp=sharing)
+## 0.7.1 (2025-08-04) [⬇️](https://drive.google.com/file/d/1bO_EjcL0waqjHgI7rg0CkjEUS_hfbH9a/view?usp=sharing)
 - 자동모드에서 모니터를 켜는 기능 추가 
 
 ## 0.7.0 (2025-07-24) [⬇️](https://drive.google.com/file/d/12Xeo3n4vLeMm-jzXtZnCJE8WIsRoG3df/view?usp=sharing)
