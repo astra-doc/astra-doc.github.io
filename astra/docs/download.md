@@ -13,6 +13,10 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.7.3 (2025-08-12) [⬇️](https://drive.google.com/file/d/1Dmx4sZI5o_kjRC--ssqIU_RYimtKN-8H/view?usp=sharing)
+- [시트매매] 실시간 감시 기능에서 시작시간 삭제
+- [실사오팔] 손절일 0일로 설정하면 발생하는 오류 수정
+
 ## 0.7.2 (2025-08-08) [⬇️](https://drive.google.com/file/d/1oIk56kQOrCBz7f5NuuxNP28H5Zxa_dj3/view?usp=sharing)
 - HTS 중복접속 팝업을 제대로 처리하지 못하는 오류 수정
 
