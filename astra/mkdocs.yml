@@ -53,7 +53,9 @@ nav:
     - 📈 실시간 떨사오팔: realtime_tsop.md
     - ✨ 자동모드: auto.md
     - ⚙️ 설정: settings.md
-  - ⬇️ 다운로드: download.md
+  - ⬇️ 다운로드:
+    - ⭐ ASTRA: download.md
+    - 📈 실사오팔 백테스트: download_rtsop.md
   - 📌 자주 묻는 질문: faq.md
   - 💬 문의하기: question.md
   - 💸 후원하기: donation.md
