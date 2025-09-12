@@ -6,5 +6,7 @@
 후원은 전적으로 자발적인 선택이며,  
 프로그램의 기능 사용에는 제한이 없습니다.
 
+[후원하기](http://aq.gy/f/ZGE~a){ .md-button }
+
 ### 후원 QR 코드
 ![](images/AQR.png){: style="width:400px; display:block; margin:0 auto"}
