@@ -15,9 +15,6 @@ Astra 에서는 시트 포맷만 제공하고 실제 매매법을 담은 시트�
 
 ![sheet3](images/sheet3.png)
 
-!!! warning "주의"
-    URL은 `https://` 가 포함되어 있는 형태로 입력해 주세요.
-
 ## 3. 편집 권한 부여
 구글 시트에서 오른쪽 상단의 Share 버튼을 클릭한 후, Astra 계정에 편집 권한을 부여합니다. Astra 계정은 astra-sheet@astra-sheet.iam.gserviceaccount.com 입니다. 진행하면서 시트 제목이 없다고 경고가 뜰 수도 있는데, 무시해도 되고 이름을 입력해도 됩니다.
 
