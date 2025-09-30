@@ -13,6 +13,14 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.7.6 (2025-09-30) [⬇️](https://drive.google.com/file/d/1k9-QqZx3i1bbSqoNFlyr1rRAeB2KuACJ/view?usp=sharing)
+- [실사오팔] 진입매수율 파라미터 추가 (0티어일 때 전일종가 대비 매수율만큼 떨어진 경우 1티어 진입)
+- [실사오팔] 기존 잔고는 무시하고 진행 (매수/매도에 활용하지 않음)
+- [실사오팔] HTS 오류 발생시 ASTRA 종료되는 오류 수정 (다음 감시에 재시도)
+- 수동모드에서 사용자 달라지면 HTS 재시작 (자동모드에만 있던 기능)
+- 일시적인 Google API 오류 발생 시 재시도 (APIError: [503]: The service is currently unavailable)
+- 일시적인 텔레그램 오류 발생 시 재시도 (Connection to api.telegram.org timed out)
+
 ## 0.7.4 (2025-09-13) [⬇️](https://drive.google.com/file/d/1GOazTEy7HXHNI-aQaEX3Hwbg8E3P988t/view?usp=sharing)
 - [실사오팔] 1티어 매수할 때 줄어든 시드 반영
 - [실사오팔] 현재가로 주문 후 체결되지 않은 경우 잘못된 동작 수정
