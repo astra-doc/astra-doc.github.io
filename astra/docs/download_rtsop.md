@@ -13,5 +13,9 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.1.1 (2025-10-11) [⬇️](https://drive.google.com/file/d/1H6TL0Y9W9kZfHLLOxH-LuIuOdUkiDELp/view?usp=sharing)
+- 2025년 9월 데이터 추가
+- 0손절일 및 +매수율 오류 수정
+
 ## 0.1.0 (2025-09-01) [⬇️](https://drive.google.com/file/d/1Oy9leMImWQ_GM5ntoRSTVHk38GvkjbPg/view?usp=sharing)
 - 초기 버전 배포
