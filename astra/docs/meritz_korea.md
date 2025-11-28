@@ -21,7 +21,8 @@ ISA 계좌를 지원하기 위해서 계좌그룹 등록이 필요합니다. ISA
 ## 종목 이름 입력 방법
 종목 이름이 알파벳으로 구성되어 있으면 미국장 종목으로 숫자로 이루어져 있으면 한국장 종목으로 인식합니다.
 삼성전자인 경우 숫자로된 종목 번호인 005930을 입력합니다.
-![image](images/korea_ticker.png)
+
+![image](images/korea_ticker.png){: style="width:300px; display:block; margin:0 auto"}
 
 ## 시트매매 주문타입
 시트매매에서 다음의 주문타입을 지원합니다.
