@@ -13,6 +13,9 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
+## 0.8.0.beta13 (2025-12-13) [⬇️](https://drive.google.com/file/d/15OzR4bJ9gAKXjJdNDq8d12rL0qakyNYF/view?usp=drivesdk)
+- <span style="color: red">HTS 화면 업데이트로 인한 긴급 패치 (기존 버전은 동작오류 발생합니다. 무조건 업데이트 하세요)</span>
+
 ## 0.7.11 (2025-11-25) [⬇️](https://drive.google.com/file/d/1gpN6yuTKX1AgH8WVBXLAR_HPyHbgl73P/view?usp=sharing)
 - [실사오팔] 현재가하고 목표가가 20% 이상 차이 나는 경우 주문 거부를 방지하기 위해 현재가에 가깝게 주문  
 - [실사오팔] HTS 보유 수량을 0으로 잘못 읽어온 경우 오작동 회피하기 위해 예외 처리
