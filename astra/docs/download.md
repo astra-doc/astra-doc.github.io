@@ -13,8 +13,16 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
-## 0.8.0.beta14 (2025-12-13) [⬇️](https://drive.google.com/file/d/1g5YPv5oUn4BokGTs_yRN49GmOY1vvHMv/view?usp=sharing)
-- <span style="color: red">HTS 화면 업데이트로 인한 긴급 패치 (기존 버전은 동작오류 발생합니다. 무조건 업데이트 하세요)</span>
+## 0.8.0 (2025-12-xx) [⬇️](https://drive.google.com/file/d/102TqubgVaIWTQzSnQozFCuaH_0wpG0RW/view?usp=sharing)
+- <b>HTS 화면 업데이트로 인한 수정 (기존 버전은 동작오류 발생하므로 필수 업데이트 필요)</b>
+- 국장지원 ([사용방법](meritz_korea.md))
+- 로그 및 텔레그램 메시지에 가격 표시할 때 통화단위($, ₩) 및 3자리마다 콤마(,) 추가
+- 슬롯별 메모 기능 추가 
+- HTS 크기 및 위치 조정 기능 추가 (설정 화면)
+- 공인인증서 팝업창 대기시간 설정 기능 추가 (저사양 피씨에서 사용)
+- 간헐적으로 발생하는 계좌 선택 오류 수정
+- 슬롯 많을때 화면 로딩 느려지는 현상 개선
+- [실사오팔] 손절 주문시 현재가 -5% 주문 (기존 -10% 주문은 거절 가능성 있음)
 
 ## 0.7.11 (2025-11-25) [⬇️](https://drive.google.com/file/d/1gpN6yuTKX1AgH8WVBXLAR_HPyHbgl73P/view?usp=sharing)
 - [실사오팔] 현재가하고 목표가가 20% 이상 차이 나는 경우 주문 거부를 방지하기 위해 현재가에 가깝게 주문  
