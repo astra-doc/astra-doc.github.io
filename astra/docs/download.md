@@ -13,7 +13,7 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
-## 0.8.0 (2025-12-xx) [⬇️](https://drive.google.com/file/d/102TqubgVaIWTQzSnQozFCuaH_0wpG0RW/view?usp=sharing)
+## 0.8.0 (2025-12-25) [⬇️](https://drive.google.com/file/d/102TqubgVaIWTQzSnQozFCuaH_0wpG0RW/view?usp=sharing)
 - <b>HTS 화면 업데이트로 인한 수정 (기존 버전은 동작오류 발생하므로 필수 업데이트 필요)</b>
 - 국장지원 ([사용방법](meritz_korea.md))
 - 로그 및 텔레그램 메시지에 가격 표시할 때 통화단위($, ₩) 및 3자리마다 콤마(,) 추가
