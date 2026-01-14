@@ -13,7 +13,7 @@
     사용자는 본 프로그램을 사용함으로써, 그로 인해 발생할 수 있는 모든 결과에 대해  
     **개발자에게 어떠한 법적 책임도 묻지 않음을 동의한 것으로 간주됩니다.**
 
-## 0.8.1 (2026-01-12) [⬇️](https://drive.google.com/file/d/1jwo2KkTtqm5L8plBuoZnRlTiyChWUnt0/view?usp=sharing)
+## 0.8.1 (2026-01-12)
 - 버전 업데이트 알림 기능
 - 공인인증서 만료 팝업창 처리
 - 동시접속 팝업창 뜰 때만 닫기 처리함 (기존에 ESC를 무조건 전송하면서 오류 발생 가능성 존재)
@@ -21,7 +21,7 @@
 - [실사오팔] 손절일 로직 수정 ("1일후 손절" 메시지 받은 다음 날 손절 처리)
 - [실사오팔] 시가 돌파시 1티어 진입 옵션 추가
 
-## 0.8.0 (2025-12-25) [⬇️](https://drive.google.com/file/d/102TqubgVaIWTQzSnQozFCuaH_0wpG0RW/view?usp=sharing)
+## 0.8.0 (2025-12-25)
 - <b>HTS 화면 업데이트로 인한 수정 (기존 버전은 동작오류 발생하므로 필수 업데이트 필요)</b>
 - 국장 지원 ([사용방법](meritz_korea.md))
 - 로그 및 텔레그램 메시지에 가격 표시할 때 통화단위($, ₩) 및 3자리마다 콤마(,) 추가
@@ -32,13 +32,13 @@
 - 슬롯 많을때 화면 로딩 느려지는 현상 개선
 - [실사오팔] 손절 주문시 현재가 -5% 주문 (기존 -10% 주문은 거절 가능성 있음)
 
-## 0.7.11 (2025-11-25) [⬇️](https://drive.google.com/file/d/1gpN6yuTKX1AgH8WVBXLAR_HPyHbgl73P/view?usp=sharing)
+## 0.7.11 (2025-11-25)
 - [실사오팔] 현재가하고 목표가가 20% 이상 차이 나는 경우 주문 거부를 방지하기 위해 현재가에 가깝게 주문  
 - [실사오팔] HTS 보유 수량을 0으로 잘못 읽어온 경우 오작동 회피하기 위해 예외 처리
 - [시트매매] 종료 시간 5분 전에 종료함 (주문이 오래걸리는 경우 종료시간을 넘어가는 상황 방지)
 - 공인인증서 팝업창 대기 시간 늘림 (5초 -> 10초)
 
-## 0.7.10 (2025-11-18) [⬇️](https://drive.google.com/file/d/1ojaV7pGct6sfRsGgl6ktDOmZtPhfbYR0/view?usp=sharing)
+## 0.7.10 (2025-11-18)
 - [실사오팔] "로스컷 비율" 및 "로스컷 발생 시 종료" 파라미터 추가
 - [시트매매] 주문표를 100개로 증가 (기존 50개)
 - 공인인증서 암호 및 계좌 비밀번호를 자격증명관리자에 저장해서 보안을 강화 (밀러님 제안)
@@ -48,7 +48,7 @@
 - HTS가 기본 경로에 설치되어 있지 않을 때 적절한 오류 메시지 출력
 - 첫 번째 슬롯에서 인증서 로그인 오류 수정
 
-## 0.7.9 (2025-11-09) [⬇️](https://drive.google.com/file/d/10I9gDCckEU2Jgl-0bKXtWtsYlL668UaQ/view?usp=sharing)
+## 0.7.9 (2025-11-09)
 - [실사오팔] 진입매수율, 미리주문 파라미터를 고급 설정 창으로 이동
 - [실사오팔] N매수/매도후 중지, 티어장보 참조슬롯 파라미터 추가 (고급 설정 창)
 - [실사오팔 및 떨사오팔] 초기화 기능 오류 수정
@@ -61,19 +61,19 @@
 - 로그인 과정 속도 개선
 - 잔고를 0으로 잘못 읽어온 경우 오작동 가능성이 있으므로 한 번 더 시도함
 
-## 0.7.8 (2025-10-16) [⬇️](https://drive.google.com/file/d/1PcF6VP5HoAyfNc5Af451XaswwwP9ETfR/view?usp=sharing)
+## 0.7.8 (2025-10-16)
 - [실사오팔] N감시간격 손절 지원
 - [실사오팔] 양수(+) 매수율 오류 수정
 - [실사오팔] "미리 주문" 기능 추가 (매수/매도 목표가에 도달하지 않아도 해당 목표가로 주문을 미리 넣는 기능)
 - [실사오팔] 텔레그램 메시지에 주문 내역 추가
 - PTP 종목 주문 오류 수정
 
-## 0.7.7 (2025-10-02) [⬇️](https://drive.google.com/file/d/1D2qJXbwVB4c-qEkaWKY5crUO2cTEX2Zo/view?usp=sharing)
+## 0.7.7 (2025-10-02)
 - [실사오팔] 하위 호환 오류 수정 (0.7.5 이전에서 생성된 테이블을 0.7.6에서 사용하면 오류 발생하는 경우가 있음)
 - [실사오팔] 비정상 종료되었을 때 다음 날 정상 동작하도록 처리
 - 이전에 실행했던 ASTRA 창의 위치를 기억해서 동일한 위치에 창을 띄우도록 처리
 
-## 0.7.6 (2025-09-30) [⬇️](https://drive.google.com/file/d/1k9-QqZx3i1bbSqoNFlyr1rRAeB2KuACJ/view?usp=sharing)
+## 0.7.6 (2025-09-30)
 - [실사오팔] 진입매수율 파라미터 추가 (0티어일 때 전일종가 대비 진입매수율만큼 떨어진 경우 1티어 진입)
 - [실사오팔] 기존 잔고는 무시하고 진행 (매수/매도에 활용하지 않음)
 - [실사오팔] HTS 오류 발생시 ASTRA 종료되는 오류 수정 (다음 감시에 재시도)
@@ -81,53 +81,53 @@
 - 일시적인 Google API 오류 발생 시 재시도 (APIError: [503]: The service is currently unavailable)
 - 일시적인 텔레그램 오류 발생 시 재시도 (Connection to api.telegram.org timed out)
 
-## 0.7.4 (2025-09-13) [⬇️](https://drive.google.com/file/d/1GOazTEy7HXHNI-aQaEX3Hwbg8E3P988t/view?usp=sharing)
+## 0.7.4 (2025-09-13)
 - [실사오팔] 1티어 매수할 때 줄어든 시드 반영
 - [실사오팔] 현재가로 주문 후 체결되지 않은 경우 잘못된 동작 수정
 - 주간에 전일종가를 잘못 읽어오는 오류 수정
 
-## 0.7.3 (2025-08-12) [⬇️](https://drive.google.com/file/d/1Dmx4sZI5o_kjRC--ssqIU_RYimtKN-8H/view?usp=sharing)
+## 0.7.3 (2025-08-12)
 - [시트매매] 실시간 감시 기능에서 시작시간 삭제
 - [실사오팔] 손절일 0일로 설정하면 발생하는 오류 수정
 
-## 0.7.2 (2025-08-08) [⬇️](https://drive.google.com/file/d/1oIk56kQOrCBz7f5NuuxNP28H5Zxa_dj3/view?usp=sharing)
+## 0.7.2 (2025-08-08)
 - HTS 중복접속 팝업을 제대로 처리하지 못하는 오류 수정
 
-## 0.7.1 (2025-08-04) [⬇️](https://drive.google.com/file/d/1bO_EjcL0waqjHgI7rg0CkjEUS_hfbH9a/view?usp=sharing)
+## 0.7.1 (2025-08-04)
 - 자동모드에서 모니터를 켜는 기능 추가 
 
-## 0.7.0 (2025-07-24) [⬇️](https://drive.google.com/file/d/12Xeo3n4vLeMm-jzXtZnCJE8WIsRoG3df/view?usp=sharing)
+## 0.7.0 (2025-07-24)
 - [시트매매] HTS에서 일별 종가 받아오는 기능 추가
 - [시트매매] 주문표에 유효하지 않은 글자가 포함되어 있는 경우 직관적인 에러 메시지 표시
 - 폰트 사이즈 변경 옵션 추가 (ASTRA 프로그램 창 크기도 변경됨)
 - 애프터장에서 HTS 종료 실패하는 오류 수정
 
-## 0.6.6 (2025-07-16) [⬇️](https://drive.google.com/file/d/1G8bgVLVV_OCaYsnyVGUihJ4_p_L4dQR4/view?usp=sharing)
+## 0.6.6 (2025-07-16)
 - 자동모드에서 슬롯 번호가 오름차순으로 실행되는 오류 수정
 
-## 0.6.5 (2025-07-15) [⬇️](https://drive.google.com/file/d/1ifSQ9a0oUbf0FZIYhO-iUP-QxfhgpdWP/view?usp=sharing)
+## 0.6.5 (2025-07-15)
 - 슬롯 개수, HTS 경로 등을 설정할 수 기능 추가
 - 인증서 변경될 때 HTS 종료 후 재실행 대기 시간 추가 
 
-## 0.6.4 (2025-07-03) [⬇️](https://drive.google.com/file/d/1oJcNMYrIPXsOn3dP2FIPFPWAKAuTpMqu/view?usp=sharing)
+## 0.6.4 (2025-07-03)
 - 실시간 매매에서 오류가 발생해도 다음 번 감시가 동작하도록 수정
 - `Permission denied: 'C:\\Users\\user\\.astra\temp.csv'` 오류 수정
 
-## 0.6.3 (2025-06-28) [⬇️](https://drive.google.com/file/d/1iXJLIlVlQlitGZmPdJe6_OmuQ_fa4h1j/view?usp=sharing)
+## 0.6.3 (2025-06-28)
 - 여러 슬롯에서 실시간 매매 지원 (시트 실시간 감시, 실시간 떨사오팔)
 - [실시간떨사오팔] 주문 가격을 0.01 단위로 맞춤
 
-## 0.6.2 (2025-06-14) [⬇️](https://drive.google.com/file/d/11VGb2ZulJI67TgWKTQW4Eg6_ROvca49G/view?usp=sharing)
+## 0.6.2 (2025-06-14)
 - 동적그리드 -> 실시간떨사오팔로 이름 변경 (그리드라는 이름이 오해의 소지가 있음)
 - 시트 접근 오류 발생할 때 에러메시지를 상세하게 남기도록 함
 - HTS 로그인 창 찾을 때 대기 시간을 늘림
 
-## 0.6.0 (2025-06-04) [⬇️](https://drive.google.com/file/d/11BV8DyOUEgePN86YjA1MlrsT75T_u1Qs/view?usp=drive_link)
+## 0.6.0 (2025-06-04)
 - 상태 창에 스크롤을 추가해서 내용이 많을 때 창이 커지는 현상 방지
 - 바로가기 버튼 추가 (작업스케줄러, 로그보기, 문서보기)
 - 동적그리드 매매법 추가 ([설명 및 사용 방법](realtime_tsop.md))
 
-## 0.5.6 (2025-04-30) [⬇️](https://drive.google.com/file/d/1PCJWjg0nsQedfjUwMeqs922Eenz_MyPe/view?usp=drive_link)
+## 0.5.6 (2025-04-30)
 - 처음 실행할 때 면책조항 팝업이 뜨도록 함 (동의하지 않으면 사용 불가)
 - Python 소수점 계산 오류 수정
 
