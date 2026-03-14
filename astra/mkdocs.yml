@@ -44,7 +44,7 @@ nav:
   - 👋 소개: index.md
   - 💻 권장사양: requirements.md
   - 🗃️ 준비하기: prep.md
-  - ⚙️  HTS 설정:
+  - ⚙️ HTS 설정:
     - 🇲 메리츠증권: meritz.md
     - 🇲 메리츠증권 국장: meritz_korea.md
   - 📄 사용방법:
@@ -54,6 +54,7 @@ nav:
     - 📈 실시간 떨사오팔: realtime_tsop.md
     - ✨ 자동모드: auto.md
     - ⚙️ 설정: settings.md
+    - 🚀 API: api.md
   - 👭 자매품:
     - 📈 실사오팔 백테스트: rtsop_backtest.md
   - ⬇️ 다운로드:
